@@ -1,0 +1,44 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+  .mat-elevation-z8{
+      width: 80%;
+  }
+  .taskTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .mat-column-_id {
+    max-width: 15%;
+  }
+  
+  .mat-column-taskName {
+    max-width: 15%;
+  }
+
+  .mat-column-description {
+    max-width: 15%;
+  }
+
+  .mat-column-date {
+    max-width: 15%;
+  }
+
+  .mat-column-status {
+    max-width: 15%;
+  }
+
+  .mat-column-delete {
+    max-width: 15%;
+  }

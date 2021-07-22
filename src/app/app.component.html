@@ -1,0 +1,24 @@
+<!--nav bar-->
+<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: rgb(29, 10, 134)">
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="taskBoard">TaskBoard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="create-task">Create-Task</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="tasks">Tasks</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>
